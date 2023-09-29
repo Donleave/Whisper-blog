@@ -4,11 +4,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b389348-14d8-4bf3-a789-046cf757fb23" name="Changes" comment="">
+    <list default="true" id="8b389348-14d8-4bf3-a789-046cf757fb23" name="Changes" comment="初始化补充">
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/user-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/content/topbar/topbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/iconfont/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/PersonalBlog/csdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/PersonalBlog/gift.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/PersonalBlog/rabbit.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/bgc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/blogComment/commentLike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/blogComment/commentLikeActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/blogComment/commentReply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/collection2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/collection2_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/collection_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/good.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/good_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogDetail/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogPublishSuccess/publish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogSearch/good.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/blogSearch/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/btn-write-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/btn-write-new1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/cool-background02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/default_avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/good.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/good_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/redian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/swiper/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/swiper/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/swiper/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/swiper/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/swiper/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/toutiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/home/备案图标.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/login/015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/login/bgc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/long-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/img/newPersonBlog/tip.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/svg/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/assets/svg/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/ButtomView/ButtomView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/CssAnimation/PageTurnBook.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/Dynamic/dynamicedit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/FixedRight/FixedRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/HeartSay/heartsay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/Manage/managecontent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NavigationBar/navigationbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NewPersonBlogContent/ChildrenPage/Dynamic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NewPersonBlogContent/ChildrenPage/Fans.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NewPersonBlogContent/ChildrenPage/MyAttention.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NewPersonBlogContent/ChildrenPage/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/NewPersonBlogContent/NewPersonBlogContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/PMELeftTabs/AccountSet.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/PMELeftTabs/Information.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/PMELeftTabs/MyCollect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/PMELeftTabs/MyThumbs_up.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/TopBar/TopBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/P_user/UploadImg/uploadImg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/common/swiper/Swiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/components/content/topbar/TopBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/BlogDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/ContentManagement.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/DynamicEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/HeartSay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/NewPersonBlog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/PersonalInfoEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogDetail/BlogDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogDetail/childComps/BlogComment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogEdit/BlogEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogEdit/childComps/BlogEditDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogPublishSuccess/BlogPublishSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogPublishSuccess/childComps/PublishSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogSearch/BlogSearch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/blogSearch/childComps/BlogSearchArticleItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/campusScenery/CampusScenery.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/home/childComps/FollowArticleItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/home/childComps/NewArticleItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/home/childComps/RecommendArticleItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/login/childComps/LoginItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/src/views/register/childComps/RegisterItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueblog/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,26 +154,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Maven资料库/Common-core",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20689656",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Maven资料库/Common-core&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Whisper-blog\Whisper-blog" />
@@ -77,8 +192,17 @@
       <option name="presentableId" value="Default" />
       <updated>1695974304928</updated>
       <workItem from="1695974306369" duration="961000" />
-      <workItem from="1695975287808" duration="398000" />
+      <workItem from="1695975287808" duration="1476000" />
+      <workItem from="1695978446458" duration="660000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化补充">
+      <created>1695975765984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695975765984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +213,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev-login" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -97,5 +233,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="初始化补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化补充" />
   </component>
 </project>
